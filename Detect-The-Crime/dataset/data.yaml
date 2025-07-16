@@ -1,0 +1,31 @@
+# train: ../train/images
+# val: ../valid/images
+# test: ../test/images
+
+# nc: 8
+# names: ['0', '80', '81', '82', '83', 'impulse', 'pistol', 'response']
+
+# roboflow:
+#   workspace: crime-scene-detection-gmhi9
+#   project: crime-detection-re248
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/crime-scene-detection-gmhi9/crime-detection-re248/dataset/1
+
+
+
+
+
+# train: images/train
+# val: images/valid
+
+# nc: 3
+# names: ['knife', 'gun', 'blood']
+
+path: ../dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['knife', 'gun', 'blood']
